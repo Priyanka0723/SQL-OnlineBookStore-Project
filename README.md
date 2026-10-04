@@ -581,7 +581,7 @@ The purpose of this project was not just to write SQL queries, but to understand
 
 ---
 
-## 👩‍💻 Priyanka Barman
+## 👩‍💻 Author
 
 **Priyanka Barman**
 
