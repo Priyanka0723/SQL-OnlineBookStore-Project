@@ -236,7 +236,7 @@ The table structures were created according to the columns available in the CSV 
 ### SQL file:
 
 ```text
-sql/01_create_tables.sql
+Sql/CreateTables.sql
 ```
 
 This file contains the SQL commands required to create the database tables.
@@ -250,7 +250,7 @@ After creating the tables and importing the data, the next step was to check whe
 ### SQL file:
 
 ```text
-sql/02_data_validation.sql
+Sql/DataValidation.sql
 ```
 
 ### Checks performed
@@ -279,7 +279,7 @@ After validating the data, basic exploratory analysis was performed.
 ### SQL file:
 
 ```text
-sql/03_basic_analysis.sql
+Sql/BasicAnalysis.sql
 ```
 
 This stage helps us understand the overall bookstore data.
@@ -313,7 +313,7 @@ After understanding the basic data, the next step was to answer practical busine
 ### SQL file:
 
 ```text
-sql/04_business_questions.sql
+Sql/BusinessQuestions.sql
 ```
 
 The purpose of this file is to use SQL to answer questions that could help a bookstore understand its business performance.
@@ -443,12 +443,12 @@ online-book-store-sql-project/
 │
 ├── README.md
 │
-├── data/
+├── Datasets/
 │   ├── Books.csv
 │   ├── Customers.csv
 │   └── Orders.csv
 │
-├── sql/
+├── Sql/
 │   ├── CreateTables.sql
 │   ├── DataValidation.sql
 │   ├── BasicAnalysis.sql
@@ -477,7 +477,7 @@ CREATE DATABASE online_book_store;
 Run:
 
 ```text
-01_create_tables.sql
+CreateTables.sql
 ```
 
 This creates the `Books`, `Customers`, and `Orders` tables.
@@ -497,7 +497,7 @@ Orders.csv      → Orders
 Run:
 
 ```text
-02_data_validation.sql
+DataValidation.sql
 ```
 
 This checks the quality and consistency of the imported data.
@@ -507,7 +507,7 @@ This checks the quality and consistency of the imported data.
 Run:
 
 ```text
-03_basic_analysis.sql
+BasicAnalysis.sql
 ```
 
 This provides an initial understanding of the bookstore data.
@@ -517,7 +517,7 @@ This provides an initial understanding of the bookstore data.
 Finally, run:
 
 ```text
-04_business_questions.sql
+BusinessQuestions.sql
 ```
 
 This uses SQL to answer practical business questions and identify useful patterns.
